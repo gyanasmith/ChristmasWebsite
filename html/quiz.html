@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Holiday Character Quiz</title>
+    <link rel="stylesheet" href="/css/quiz.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Henny+Penny&display=swap" rel="stylesheet">
+    <script src="/js/quiz.js" defer></script>
+</head>
+<body>
+    <header>
+        <div id="logo"><img src="/images/snowman.png" alt="Snowman">
+            <h1>Character Quiz</h1>
+        </div>
+        <br>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="quiz.html">Character Quiz</a>
+            <a href="wishlist.html">Make a Wishlist</a>
+            <a href="contact.html">Contact Santa</a>
+        </nav>
+        <br>
+        <br>
+        <br>
+    </header>
+        <br>
+        <br>
+        <br>
+    </header>
+
+    <main>
+        <div class="quiz">
+            <h2>What Christmas Character Are You?</h2>
+            <form id="quiz-form">
+                <div class="question">
+                    <p>1. What's your favorite holiday tradition?</p>
+                    <label><input type="radio" name="q1" value="santa">Giving gifts</label><br>
+                    <label><input type="radio" name="q1" value="elf">Spending time with friends and family</label><br>
+                    <label><input type="radio" name="q1" value="grinch">I hate the holidays</label><br>
+                    <label><input type="radio" name="q1" value="snowman">Being outside</label><br>
+                </div>
+                <div class="question">
+                    <p>2. What's your favorite way to decorate for the holidays?</p>
+                    <label><input type="radio" name="q2" value="santa">Red and green everywhere</label><br>
+                    <label><input type="radio" name="q2" value="elf">Lots of decorations all over the house</label><br>
+                    <label><input type="radio" name="q2" value="grinch">I don't decorate</label><br>
+                    <label><input type="radio" name="q2" value="snowman">I like modern, minimalistic decorations</label><br>
+                </div>
+
+                <div class="question">
+                    <p>3. Do you like the cold?</p>
+                    <label><input type="radio" name="q3" value="santa">I don't mind it</label><br>
+                    <label><input type="radio" name="q3" value="elf">I prefer being warm</label><br>
+                    <label><input type="radio" name="q3" value="grinch">I hate it</label><br>
+                    <label><input type="radio" name="q3" value="snowman">I love it</label><br>
+                </div>
+                <button type="button" id="submit-btn">Get Your Character!</button>
+            </form>
+            <div id="result"></div>
+        </div>
+    </main>
+<br>
+<br>
+<br>
+<hr>
+<br>
+    <footer>
+        <p>&copy; 2024 Christmas Fun</p>
+    </footer>
+</body>
+</html>

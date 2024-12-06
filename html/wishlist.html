@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wishlist</title>
+    <link rel="stylesheet" href="/css/wishlist.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Henny+Penny&display=swap" rel="stylesheet">
+    <script src="/js/wishlist.js" defer></script>
+    
+</head>
+<body>
+    <header>
+        <div id="logo"><img src="/images/wishlist.png" alt="Wishlist">
+            <h1>Create a Christmas Wishlist</h1>
+        </div>
+        <br>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="quiz.html">Character Quiz</a>
+            <a href="wishlist.html">Make a Wishlist</a>
+            <a href="contact.html">Contact Santa</a>
+        </nav>
+        <br>
+        <br>
+        <br>
+    </header>
+    <form>
+        <label for="txtItem">Item:</label>
+        <br>
+        <input type="text" id="txtItem" placeholder="Enter item">
+        <br><br>
+        <label for="txtDes">Description:</label>
+        <br>
+        <input type="text" id="txtDes" placeholder="Enter description">
+        <br><br>
+        <button type=button id="btnSubmit">Add to List</button>
+    </form>
+    <br>
+    <table id="wishlistTable">
+        <thead>
+            <tr>
+                <th>Item</th>
+                <th>Description</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- Wishlist items will be displayed here -->
+        </tbody>
+    </table>
+</body>
+</html>
